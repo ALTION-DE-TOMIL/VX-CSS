@@ -1,0 +1,101 @@
+/*custom vortox CSS made by Humble!*/
+/*------------------------------------------*/
+/* Home */
+:root {
+    --asscentColor: #f00;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--asscentColor);
+}
+
+::-webkit-scrollbar:horizontal {
+    background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: transparent !important;
+    border-radius: 10px;
+}
+
+/* Custom Backgorund */
+#app > div.interface.text-2 > div.background {
+    background-image: url(https://media1.tenor.com/m/Ae_eyMkMi8IAAAAC/luafds.gif) !important;
+    background-size: cover !important;
+}
+
+.end-modal .bottom {
+    display: none;
+}
+
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial {
+    display: none !important
+}
+
+/*End Screen Background*/
+.end-modal {
+    background: url(https://media1.tenor.com/m/Ae_eyMkMi8IAAAAC/luafds.gif) no-repeat !important;
+    background-size: cover;
+    z-index: -1;
+}
+
+.end-modal .bottom {
+    display: none;
+}
+
+.end-modal .team-list-players .list .player {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.end-modal .team-list-players .card-cont:nth-child(1),
+.end-modal .team-list-players .card-cont:nth-child(2),
+.end-modal .items {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.end-modal .team-list-players .label {
+    background: transparent;
+    color: var(--asscentColor);
+}
+
+/* App */
+#app {
+    font-family: 'Kavoon', display;
+    color: #c60000;
+}
+
+/* Select regions cont */
+#select-regions-cont {
+    background-color: rgba(163, 0, 0, 0.24);
+    border-color: #f40000;
+}
+
+/* Wrapper */
+#mode-selection-modal .container-card > div:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.49);
+    border-color: #d10000;
+    transform: translatex(0px) translatey(0px);
+}
+
+/* Select mods cont */
+#mode-selection-modal div .select-mods-cont {
+    transform: translatex(0px) translatey(0px);
+}
+
+/* Select mods mods */
+#mode-selection-modal div .select-mods-mods {
+    border-color: #ff0f0f;
+}
+
+.promo-link-btn {
+    display: none !important;
+}
+
+.soc-group[data-v-3c44abf2] {
+    display: none;
+... (1,138 lines left)
